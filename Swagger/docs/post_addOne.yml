@@ -1,0 +1,16 @@
+tags:
+  - name: POST Method
+get:
+  description: To add new language on data
+parameters:
+  - name: language
+    in: formData
+    required: true
+    type: string
+responses:
+    '200':
+      description: Successful response
+    '400':
+      description: Bad Request
+    '500':
+      description: Internal Server Error
