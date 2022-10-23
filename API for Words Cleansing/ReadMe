@@ -1,0 +1,7 @@
+This Code made for cleansing abusive words and slangs terms.
+
+Which the data orinally from https://www.kaggle.com/datasets/ilhamfp31/indonesian-abusive-and-hate-speech-twitter-text.
+Muhammad Okky Ibrohim and Indra Budi. 2019. Multi-label Hate Speech and Abusive Language Detection in Indonesian Twitter. In ALW3: 3rd Workshop on Abusive Language Online, 46-57.
+
+Using swagger to documented the api and python as programming language.
+The api input can be text or file uploaded with extension csv.
