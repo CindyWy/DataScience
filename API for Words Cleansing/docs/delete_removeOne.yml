@@ -1,0 +1,16 @@
+tags:
+  - name: DELETE Method
+get:
+  description: To delete selected tweet based on input on url path
+parameters:
+  - name: id
+    in: path
+    required: true
+    type: string
+responses:
+    '200':
+      description: Successful response
+    '400':
+      description: Bad Request
+    '500':
+      description: Internal Server Error

@@ -1,0 +1,16 @@
+tags:
+  - name: GET Method
+get:
+  description: To display tweet before after cleansing based on selected
+parameters:
+  - name: id
+    in: path
+    required: true
+    type: string
+responses:
+    '200':
+      description: Successful response
+    '400':
+      description: Bad Request
+    '500':
+      description: Internal Server Error

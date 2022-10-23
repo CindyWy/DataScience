@@ -1,0 +1,24 @@
+tags:
+  - name: PUT Method
+get:
+  description: To edit tweet based on input
+parameters:
+  - name: id
+    in: path
+    required: true
+    type: string
+  - name: old_tweet
+    in: body
+    required: true
+    schema :
+      type: object
+      required:
+        name :
+          type: string
+responses:
+    '200':
+      description: Successful response
+    '400':
+      description: Bad Request
+    '500':
+      description: Internal Server Error
