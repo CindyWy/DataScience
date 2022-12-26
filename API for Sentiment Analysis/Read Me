@@ -6,7 +6,7 @@ This Code made for Get Sentiment Analysis from Indonesia Tweet/Text.
 2. LSTM
 
 The data for source :
-1. Training : 
+1. Training : https://drive.google.com/file/d/1RCHGfn9JJyyReAh8PIIoF8Ch0H3miP0u/view?usp=sharing
 2. Testing : https://www.kaggle.com/datasets/ilhamfp31/indonesian-abusive-and-hate-speech-twitter-text.
 
 Using Swagger UI to documented the api, flask as framework, python(pandas and regex) to cleansing, NLTK indonesia for stopwords removal and sqlite as database.
