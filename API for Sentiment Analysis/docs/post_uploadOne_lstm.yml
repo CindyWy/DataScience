@@ -1,0 +1,17 @@
+tags:
+  - name: POST Method
+get:
+  description: upload file to predict sentiment with LSTM
+consumes:
+  - multipart/form-data
+parameters:
+  - in : formData
+    name : file
+    type : file
+responses:
+    '200':
+      description: Successful response
+    '400':
+      description: Bad Request
+    '500':
+      description: Internal Server Error
